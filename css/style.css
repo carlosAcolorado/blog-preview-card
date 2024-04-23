@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{ 
+    --yellow:hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree',sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: var(--yellow);
+
+}
+
+.card-container{
+    width: 90%;
+    min-width: 280px;
+    max-width: 340px;
+    padding: 18px;
+    background-color: var(--white);
+    border-radius: 15px;
+    border:solid 1px var(--black);
+    box-shadow: 6px 6px;
+}
+
+.card-container:hover{
+    box-shadow: 10px 10px;
+}
+
+
+.image{
+    height: 180px;
+}
+.image img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.aprender{
+display: inline-block; /* ajusta el tamaño del div al contenido*/
+font-size: 12px;
+font-weight: 800;
+padding: 5px 15px;
+margin-top: 20px;
+border-radius: 5px;
+background-color:var(--yellow);
+}
+
+.publicar{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.parrafo{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.parrafo h1:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.parrafo p{
+    margin-top: 12px;
+    color: var(--grey);
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.creador{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+
+.creador img{
+    width: 30px;
+}
+
+.creador p{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+
+
